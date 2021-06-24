@@ -86,8 +86,7 @@ public class SignAuthUtils {
         String appKey = "dia1xMald53AleigmdekAdxmqLekgDxA";
         String nonce = "adek12GdmMdkelAkd95kglRiyOpglDdm";
         String alg = "md5";
-        String timestamp = (System.currentTimeMillis() / 1000) + "";
-        System.out.println(timestamp);
+        String timestamp = "1624502662";
         System.out.println(generateSign(alg, appId, appKey, nonce, timestamp));
     }
 }
